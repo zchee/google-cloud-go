@@ -129,6 +129,23 @@ func (sh *sessionHandle) getTransactionID() transactionID {
 	return sh.session.tx
 }
 
+// getDatabase returns the database name with the session in sessionHandle.
+func (sh *sessionHandle) getDatabase() string {
+	sh.mu.Lock()
+	s := sh.session
+	if s == nil {
+		sh.mu.Unlock()
+		return ""
+	}
+	sh.mu.Unlock()
+
+	p := s.pool
+	p.mu.Lock()
+	database := p.sc.database
+	p.mu.Unlock()
+	return database
+}
+
 // destroy destroys the inner session object. It is safe to call destroy
 // multiple times and only the first call would attempt to
 // destroy the inner session object.
