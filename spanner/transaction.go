@@ -533,6 +533,9 @@ func (t *ReadOnlyTransaction) begin(ctx context.Context) error {
 		if err != nil {
 			return err
 		}
+		if err := checkNestedTxn(ctx, sh.getDatabase()); err != nil {
+			return err
+		}
 		res, err = sh.getClient().BeginTransaction(contextWithOutgoingMetadata(ctx, sh.getMetadata()), &sppb.BeginTransactionRequest{
 			Session: sh.getID(),
 			Options: &sppb.TransactionOptions{
@@ -579,9 +582,6 @@ func (t *ReadOnlyTransaction) begin(ctx context.Context) error {
 
 // acquire implements txReadEnv.acquire.
 func (t *ReadOnlyTransaction) acquire(ctx context.Context) (*sessionHandle, *sppb.TransactionSelector, error) {
-	if err := checkNestedTxn(ctx); err != nil {
-		return nil, nil, err
-	}
 	if t.singleUse {
 		return t.acquireSingleUse(ctx)
 	}
@@ -608,6 +608,10 @@ func (t *ReadOnlyTransaction) acquireSingleUse(ctx context.Context) (*sessionHan
 		}
 		sh, err := t.sp.take(ctx)
 		if err != nil {
+			return nil, nil, err
+		}
+		if err := checkNestedTxn(ctx, sh.getDatabase()); err != nil {
+			sh.recycle()
 			return nil, nil, err
 		}
 
@@ -1123,7 +1127,17 @@ func (t *ReadWriteTransaction) runInTransaction(ctx context.Context, f func(cont
 		err             error
 		errDuringCommit bool
 	)
-	if err = f(context.WithValue(ctx, transactionInProgressKey{}, 1), t); err == nil {
+	fn := func(ctx context.Context, tx *ReadWriteTransaction) error {
+		database := t.sh.getDatabase()
+		state := transactionInProgressState{database: true}
+		defer func() {
+			state[database] = false
+			ctx = context.WithValue(ctx, transactionInProgressKey{}, state)
+		}()
+
+		return f(context.WithValue(ctx, transactionInProgressKey{}, state), tx)
+	}
+	if err = fn(ctx, t); err == nil {
 		// Try to commit if transaction body returns no error.
 		resp, err = t.commit(ctx, t.txOpts.CommitOptions)
 		errDuringCommit = err != nil
@@ -1147,6 +1161,11 @@ func (t *ReadWriteTransaction) runInTransaction(ctx context.Context, f func(cont
 		// commits are also not rolled back.
 		if !errDuringCommit {
 			t.rollback(ctx)
+		}
+		// Handle checkNestedTxn error
+		if ErrCode(err) == codes.FailedPrecondition {
+			t.sh.recycle()
+			return resp, err
 		}
 		return resp, err
 	}
