@@ -1,0 +1,387 @@
+=== RUN   TestIntegration_InitSessionPool
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/53"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/54"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/47"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/20"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/5"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/49"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/91"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/80"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/68"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/1"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/26"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/65"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/96"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/27"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/4"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/99"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/7"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/35"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/77"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/30"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/39"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/57"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/37"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/29"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/9"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/70"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/10"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/63"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/71"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/78"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/3"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/55"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/48"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/38"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/45"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/75"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/79"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/84"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/52"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/25"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/81"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/43"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/87"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/6"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/40"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/60"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/82"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/86"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/83"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/19"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/36"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/31"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/50"
+2021/07/06 17:44:45 Failed to prepare session, error: spanner: code = "NotFound", desc = "Session not found: projects/emulator-test-project/instances/gotest-1625561084993754000-01/databases/gotest_1625561084993683000_01/sessions/14"
+--- PASS: TestIntegration_InitSessionPool (0.14s)
+=== RUN   TestIntegration_SingleUse
+=== PAUSE TestIntegration_SingleUse
+=== RUN   TestIntegration_SingleUse_WithQueryOptions
+    integration_test.go:3493: Skipping testing against the emulator.
+--- SKIP: TestIntegration_SingleUse_WithQueryOptions (0.00s)
+=== RUN   TestIntegration_SingleUse_ReadingWithLimit
+=== PAUSE TestIntegration_SingleUse_ReadingWithLimit
+=== RUN   TestIntegration_ReadOnlyTransaction
+=== PAUSE TestIntegration_ReadOnlyTransaction
+=== RUN   TestIntegration_UpdateDuringRead
+=== PAUSE TestIntegration_UpdateDuringRead
+=== RUN   TestIntegration_ReadWriteTransaction
+=== PAUSE TestIntegration_ReadWriteTransaction
+=== RUN   TestIntegration_ReadWriteTransactionWithOptions
+=== PAUSE TestIntegration_ReadWriteTransactionWithOptions
+=== RUN   TestIntegration_ReadWriteTransaction_StatementBased
+=== PAUSE TestIntegration_ReadWriteTransaction_StatementBased
+=== RUN   TestIntegration_ReadWriteTransaction_StatementBasedWithOptions
+=== PAUSE TestIntegration_ReadWriteTransaction_StatementBasedWithOptions
+=== RUN   TestIntegration_Reads
+=== PAUSE TestIntegration_Reads
+=== RUN   TestIntegration_EarlyTimestamp
+=== PAUSE TestIntegration_EarlyTimestamp
+=== RUN   TestIntegration_NestedTransaction
+=== PAUSE TestIntegration_NestedTransaction
+=== RUN   TestIntegration_CreateDBRetry
+=== PAUSE TestIntegration_CreateDBRetry
+=== RUN   TestIntegration_DbRemovalRecovery
+=== PAUSE TestIntegration_DbRemovalRecovery
+=== RUN   TestIntegration_BasicTypes
+=== PAUSE TestIntegration_BasicTypes
+=== RUN   TestIntegration_StructTypes
+=== PAUSE TestIntegration_StructTypes
+=== RUN   TestIntegration_StructParametersUnsupported
+    integration_test.go:3493: Skipping testing against the emulator.
+--- SKIP: TestIntegration_StructParametersUnsupported (0.00s)
+=== RUN   TestIntegration_QueryExpressions
+=== PAUSE TestIntegration_QueryExpressions
+=== RUN   TestIntegration_QueryStats
+    integration_test.go:3493: Skipping testing against the emulator.
+--- SKIP: TestIntegration_QueryStats (0.00s)
+=== RUN   TestIntegration_InvalidDatabase
+=== PAUSE TestIntegration_InvalidDatabase
+=== RUN   TestIntegration_ReadErrors
+=== PAUSE TestIntegration_ReadErrors
+=== RUN   TestIntegration_TransactionRunner
+    integration_test.go:3493: Skipping testing against the emulator.
+--- SKIP: TestIntegration_TransactionRunner (0.00s)
+=== RUN   TestIntegration_BatchQuery
+=== PAUSE TestIntegration_BatchQuery
+=== RUN   TestIntegration_BatchRead
+=== PAUSE TestIntegration_BatchRead
+=== RUN   TestIntegration_BROTNormal
+=== PAUSE TestIntegration_BROTNormal
+=== RUN   TestIntegration_CommitTimestamp
+=== PAUSE TestIntegration_CommitTimestamp
+=== RUN   TestIntegration_DML
+=== PAUSE TestIntegration_DML
+=== RUN   TestIntegration_StructParametersBind
+=== PAUSE TestIntegration_StructParametersBind
+=== RUN   TestIntegration_PDML
+=== PAUSE TestIntegration_PDML
+=== RUN   TestIntegration_BatchDML
+=== PAUSE TestIntegration_BatchDML
+=== RUN   TestIntegration_BatchDML_NoStatements
+=== PAUSE TestIntegration_BatchDML_NoStatements
+=== RUN   TestIntegration_BatchDML_TwoStatements
+=== PAUSE TestIntegration_BatchDML_TwoStatements
+=== RUN   TestIntegration_BatchDML_Error
+=== PAUSE TestIntegration_BatchDML_Error
+=== RUN   TestIntegration_StartBackupOperation
+    integration_test.go:3493: Skipping testing against the emulator.
+--- SKIP: TestIntegration_StartBackupOperation (0.00s)
+=== RUN   TestIntegration_DirectPathFallback
+=== PAUSE TestIntegration_DirectPathFallback
+=== CONT  TestIntegration_ReadOnlyTransaction
+=== CONT  TestIntegration_QueryExpressions
+=== CONT  TestIntegration_ReadWriteTransactionWithOptions
+=== CONT  TestIntegration_BatchDML_TwoStatements
+=== CONT  TestIntegration_StructTypes
+=== CONT  TestIntegration_StructParametersBind
+=== CONT  TestIntegration_Reads
+=== CONT  TestIntegration_DirectPathFallback
+=== CONT  TestIntegration_CreateDBRetry
+=== CONT  TestIntegration_BatchDML_NoStatements
+=== CONT  TestIntegration_CreateDBRetry
+    integration_test.go:3493: Skipping testing against the emulator.
+=== CONT  TestIntegration_BasicTypes
+=== CONT  TestIntegration_BatchDML
+=== CONT  TestIntegration_EarlyTimestamp
+=== CONT  TestIntegration_PDML
+=== CONT  TestIntegration_DbRemovalRecovery
+=== CONT  TestIntegration_ReadWriteTransaction
+=== CONT  TestIntegration_DML
+=== CONT  TestIntegration_CommitTimestamp
+=== CONT  TestIntegration_BatchRead
+=== CONT  TestIntegration_ReadWriteTransaction_StatementBased
+=== CONT  TestIntegration_ReadWriteTransactionWithOptions
+    integration_test.go:3493: Skipping testing against the emulator.
+=== CONT  TestIntegration_BROTNormal
+--- SKIP: TestIntegration_CreateDBRetry (0.00s)
+=== CONT  TestIntegration_ReadWriteTransaction_StatementBased
+    integration_test.go:3493: Skipping testing against the emulator.
+=== CONT  TestIntegration_BatchQuery
+--- SKIP: TestIntegration_ReadWriteTransactionWithOptions (0.00s)
+--- SKIP: TestIntegration_ReadWriteTransaction_StatementBased (0.00s)
+=== CONT  TestIntegration_SingleUse_ReadingWithLimit
+--- PASS: TestIntegration_DirectPathFallback (0.05s)
+=== CONT  TestIntegration_UpdateDuringRead
+--- PASS: TestIntegration_BatchRead (0.31s)
+=== CONT  TestIntegration_ReadWriteTransaction_StatementBasedWithOptions
+    integration_test.go:3493: Skipping testing against the emulator.
+--- SKIP: TestIntegration_ReadWriteTransaction_StatementBasedWithOptions (0.00s)
+=== CONT  TestIntegration_ReadErrors
+--- PASS: TestIntegration_DbRemovalRecovery (0.32s)
+=== CONT  TestIntegration_NestedTransaction
+--- PASS: TestIntegration_BatchDML (0.34s)
+=== CONT  TestIntegration_InvalidDatabase
+--- PASS: TestIntegration_BatchDML_NoStatements (0.35s)
+=== CONT  TestIntegration_SingleUse
+--- PASS: TestIntegration_SingleUse_ReadingWithLimit (0.35s)
+=== CONT  TestIntegration_BatchDML_Error
+--- PASS: TestIntegration_StructTypes (0.36s)
+--- PASS: TestIntegration_BatchQuery (0.37s)
+--- PASS: TestIntegration_BROTNormal (0.37s)
+--- PASS: TestIntegration_QueryExpressions (0.39s)
+--- PASS: TestIntegration_UpdateDuringRead (0.34s)
+--- PASS: TestIntegration_CommitTimestamp (0.39s)
+--- PASS: TestIntegration_BatchDML_TwoStatements (0.40s)
+=== RUN   TestIntegration_SingleUse/strong
+--- PASS: TestIntegration_NestedTransaction (0.09s)
+--- PASS: TestIntegration_InvalidDatabase (0.07s)
+--- PASS: TestIntegration_PDML (0.41s)
+--- PASS: TestIntegration_EarlyTimestamp (0.42s)
+--- PASS: TestIntegration_DML (0.43s)
+--- PASS: TestIntegration_ReadErrors (0.12s)
+--- PASS: TestIntegration_BatchDML_Error (0.10s)
+--- PASS: TestIntegration_StructParametersBind (0.47s)
+--- PASS: TestIntegration_Reads (0.48s)
+=== RUN   TestIntegration_SingleUse/min_read_timestamp
+=== RUN   TestIntegration_SingleUse/max_staleness
+--- PASS: TestIntegration_ReadWriteTransaction (0.57s)
+=== RUN   TestIntegration_SingleUse/read_timestamp
+=== RUN   TestIntegration_SingleUse/exact_staleness
+--- PASS: TestIntegration_SingleUse (0.31s)
+    --- PASS: TestIntegration_SingleUse/strong (0.10s)
+    --- PASS: TestIntegration_SingleUse/min_read_timestamp (0.05s)
+    --- PASS: TestIntegration_SingleUse/max_staleness (0.05s)
+    --- PASS: TestIntegration_SingleUse/read_timestamp (0.03s)
+    --- PASS: TestIntegration_SingleUse/exact_staleness (0.01s)
+--- PASS: TestIntegration_BasicTypes (0.84s)
+--- PASS: TestIntegration_ReadOnlyTransaction (1.28s)
+PASS
+2021/07/06 17:44:46 failed to retrieve backups from instance projects/emulator-test-project/instances/gotest-1625561084993754000-01 because of error rpc error: code = Unimplemented desc = 
+ok  	cloud.google.com/go/spanner	1.525s
+testing: warning: no tests to run
+PASS
+ok  	cloud.google.com/go/spanner/admin/database/apiv1	0.046s [no tests to run]
+testing: warning: no tests to run
+PASS
+ok  	cloud.google.com/go/spanner/admin/instance/apiv1	0.049s [no tests to run]
+testing: warning: no tests to run
+PASS
+ok  	cloud.google.com/go/spanner/apiv1	0.046s [no tests to run]
+?   	cloud.google.com/go/spanner/internal/benchwrapper	[no test files]
+?   	cloud.google.com/go/spanner/internal/benchwrapper/proto	[no test files]
+testing: warning: no tests to run
+PASS
+ok  	cloud.google.com/go/spanner/internal/testutil	0.059s [no tests to run]
+=== RUN   TestIntegration_SpannerBasics
+    integration_test.go:89: Using in-memory fake Spanner DB
+    inmem.go:559: Querying: SELECT 1
+    inmem.go:559: Querying: SELECT 1
+    integration_test.go:184: DDL update: ["DROP INDEX AgeIndex"]
+    integration_test.go:192: DDL update: ["DROP TABLE Characters"]
+    integration_test.go:195: DDL update: ["CREATE TABLE Characters (\n\t\t\tFirstName STRING(20) NOT NULL,\n\t\t\tLastName STRING(20) NOT NULL,\n\t\t\tAlias STRING(MAX),\n\t\t) PRIMARY KEY (FirstName, LastName)"]
+    integration_test.go:204: DDL update: ["ALTER TABLE Characters ADD COLUMN Age INT64" "CREATE INDEX AgeIndex ON Characters (Age DESC)"]
+    inmem.go:594: Reading rows from 1 keys and 0 ranges from Characters (cols: [Alias Age])
+    inmem.go:591: Reading all from Characters (cols: [Age])
+    inmem.go:559: Querying: SELECT Alias FROM Characters WHERE Age < @ageLimit AND Alias IS NOT NULL ORDER BY Age DESC LIMIT @limit
+    inmem.go:561:         ▹ map[ageLimit:{100 {false 1 0}} limit:{2 {false 1 0}}]
+    inmem.go:594: Reading rows from 1 keys and 0 ranges from Characters (cols: [Age])
+    inmem.go:559: Querying: SELECT Age FROM Characters WHERE FirstName = "Peter"
+    integration_test.go:348: DDL update: ["ALTER TABLE Characters ADD COLUMN Allies ARRAY<STRING(20)>"]
+    inmem.go:594: Reading rows from 1 keys and 0 ranges from Characters (cols: [Allies])
+    inmem.go:594: Reading rows from 1 keys and 0 ranges from Characters (cols: [Allies])
+    integration_test.go:386: DDL update: ["ALTER TABLE Characters ADD COLUMN Updated TIMESTAMP OPTIONS (allow_commit_timestamp=true)"]
+    inmem.go:594: Reading rows from 1 keys and 0 ranges from Characters (cols: [Allies Updated])
+    inmem.go:559: Querying: SELECT Age FROM Characters WHERE FirstName IN UNNEST(@list)
+    inmem.go:561:         ▹ map[list:{[Peter Steve] {true 4 0}}]
+--- PASS: TestIntegration_SpannerBasics (3.51s)
+=== RUN   TestIntegration_ReadsAndQueries
+    integration_test.go:89: Using in-memory fake Spanner DB
+    integration_test.go:462: DDL update: ["DROP TABLE Staff"]
+    integration_test.go:462: DDL update: ["DROP TABLE PlayerStats"]
+    integration_test.go:462: DDL update: ["DROP TABLE JoinB"]
+    integration_test.go:462: DDL update: ["DROP TABLE JoinA"]
+    integration_test.go:462: DDL update: ["DROP TABLE JoinD"]
+    integration_test.go:462: DDL update: ["DROP TABLE JoinF"]
+    integration_test.go:462: DDL update: ["DROP TABLE SomeStrings"]
+    integration_test.go:462: DDL update: ["DROP TABLE JoinC"]
+    integration_test.go:462: DDL update: ["DROP TABLE JoinE"]
+    integration_test.go:462: DDL update: ["DROP TABLE Updateable"]
+    integration_test.go:476: DDL update: ["CREATE TABLE Staff (\n\t\t\tTenure INT64,\n\t\t\tID INT64,\n\t\t\tName STRING(MAX),\n\t\t\tCool BOOL,\n\t\t\tHeight FLOAT64,\n\t\t) PRIMARY KEY (Name, ID)"]
+    inmem.go:594: Reading rows from 4 keys and 0 ranges from Staff (cols: [Name Tenure])
+    inmem.go:594: Reading rows from 0 keys and 2 ranges from Staff (cols: [Name Tenure])
+    inmem.go:591: Reading all from Staff (cols: [Tenure Name Height])
+    integration_test.go:565: DDL update: ["ALTER TABLE Staff ADD COLUMN FirstSeen DATE" "ALTER TABLE Staff ADD COLUMN `To` TIMESTAMP"]
+    inmem.go:517: Executing: DELETE FROM Staff WHERE Name >= @min AND Name < @max
+    inmem.go:519:         ▹ map[max:{07 {false 4 0}} min:{01 {false 4 0}}]
+    integration_test.go:632: DDL update: ["ALTER TABLE Staff ADD COLUMN RawBytes BYTES(MAX)"]
+    integration_test.go:646: DDL update: ["CREATE TABLE PlayerStats (\n\t\t\tLastName STRING(MAX),\n\t\t\tOpponentID INT64,\n\t\t\tPointsScored INT64,\n\t\t) PRIMARY KEY (LastName, OpponentID)" "CREATE TABLE JoinA ( w INT64, x STRING(MAX) ) PRIMARY KEY (w, x)" "CREATE TABLE JoinB ( y INT64, z STRING(MAX) ) PRIMARY KEY (y, z)" "CREATE TABLE JoinC ( x INT64, y STRING(MAX) ) PRIMARY KEY (x, y)" "CREATE TABLE JoinD ( x INT64, z STRING(MAX) ) PRIMARY KEY (x, z)" "CREATE TABLE JoinE ( w INT64, x STRING(MAX) ) PRIMARY KEY (w, x)" "CREATE TABLE JoinF ( y INT64, z STRING(MAX) ) PRIMARY KEY (y, z)" "CREATE TABLE SomeStrings ( i INT64, str STRING(MAX) ) PRIMARY KEY (i)" "CREATE TABLE Updateable (\n\t\t\tid INT64,\n\t\t\tfirst STRING(MAX),\n\t\t\tlast STRING(MAX),\n\t\t) PRIMARY KEY (id)"]
+    inmem.go:517: Executing: UPDATE Updateable SET last = "bloggs" WHERE id = 0
+    inmem.go:517: Executing: UPDATE Updateable SET first = last, last = first WHERE id = 1
+    inmem.go:517: Executing: UPDATE Updateable SET last = DEFAULT WHERE id = 2
+    inmem.go:517: Executing: UPDATE Updateable SET first = "noname" WHERE id = 3
+    integration_test.go:1207: Testing query: SELECT 17, "sweet", TRUE AND FALSE, NULL, B"hello"
+    inmem.go:559: Querying: SELECT 17, "sweet", TRUE AND FALSE, NULL, B"hello"
+    integration_test.go:1207: Testing query: SELECT @x IS TRUE, @x IS NOT TRUE, @x IS FALSE, @x IS NOT FALSE, @x IS NULL, @x IS NOT NULL
+    inmem.go:559: Querying: SELECT @x IS TRUE, @x IS NOT TRUE, @x IS FALSE, @x IS NOT FALSE, @x IS NULL, @x IS NOT NULL
+    inmem.go:561:         ▹ map[x:{<nil> {false 0 0}}]
+    integration_test.go:1207: Testing query: SELECT @x, NOT @x, @x AND TRUE, @x AND FALSE, @x OR TRUE, @x OR FALSE
+    inmem.go:559: Querying: SELECT @x, NOT @x, @x AND TRUE, @x AND FALSE, @x OR TRUE, @x OR FALSE
+    inmem.go:561:         ▹ map[x:{<nil> {false 0 0}}]
+    integration_test.go:1207: Testing query: SELECT Name FROM Staff WHERE Cool
+    inmem.go:559: Querying: SELECT Name FROM Staff WHERE Cool
+    integration_test.go:1207: Testing query: SELECT ID FROM Staff WHERE Cool IS NOT NULL ORDER BY ID DESC
+    inmem.go:559: Querying: SELECT ID FROM Staff WHERE Cool IS NOT NULL ORDER BY ID DESC
+    integration_test.go:1207: Testing query: SELECT Name, Tenure FROM Staff WHERE Cool IS NULL OR Cool ORDER BY Name LIMIT 2
+    inmem.go:559: Querying: SELECT Name, Tenure FROM Staff WHERE Cool IS NULL OR Cool ORDER BY Name LIMIT 2
+    integration_test.go:1207: Testing query: SELECT Name, ID + 100 FROM Staff WHERE @min <= Tenure AND Tenure < @lim ORDER BY Cool, Name DESC LIMIT @numResults
+    inmem.go:559: Querying: SELECT Name, (ID)+(100) FROM Staff WHERE @min <= Tenure AND Tenure < @lim ORDER BY Cool, Name DESC LIMIT @numResults
+    inmem.go:561:         ▹ map[lim:{11 {false 1 0}} min:{9 {false 1 0}} numResults:{100 {false 1 0}}]
+    integration_test.go:1207: Testing query: SELECT Name, Cool IS NOT NULL FROM Staff WHERE Tenure/2 > 4 ORDER BY NOT Cool, Name
+    inmem.go:559: Querying: SELECT Name, Cool IS NOT NULL FROM Staff WHERE (Tenure)/(2) > 4 ORDER BY NOT Cool, Name
+    integration_test.go:1207: Testing query: SELECT Name, Height FROM Staff ORDER BY Height DESC LIMIT 2
+    inmem.go:559: Querying: SELECT Name, Height FROM Staff ORDER BY Height DESC LIMIT 2
+    integration_test.go:1207: Testing query: SELECT Name FROM Staff WHERE Name LIKE "J%k" OR Name LIKE "_am"
+    inmem.go:559: Querying: SELECT Name FROM Staff WHERE Name LIKE "J%k" OR Name LIKE "_am"
+    integration_test.go:1207: Testing query: SELECT Name, Height FROM Staff WHERE Height BETWEEN @min AND @max ORDER BY Height DESC
+    inmem.go:559: Querying: SELECT Name, Height FROM Staff WHERE Height BETWEEN @min AND @max ORDER BY Height DESC
+    inmem.go:561:         ▹ map[max:{1.85 {false 2 0}} min:{1.75 {false 2 0}}]
+    integration_test.go:1207: Testing query: SELECT COUNT(*) FROM Staff WHERE Name < "T"
+    inmem.go:559: Querying: SELECT COUNT(*) FROM Staff WHERE Name < "T"
+    integration_test.go:1207: Testing query: SELECT COUNT(*) FROM Staff WHERE Name = "Nobody"
+    inmem.go:559: Querying: SELECT COUNT(*) FROM Staff WHERE Name = "Nobody"
+    integration_test.go:1207: Testing query: SELECT * FROM Staff WHERE Name LIKE "S%"
+    inmem.go:559: Querying: SELECT * FROM Staff WHERE Name LIKE "S%"
+    integration_test.go:1207: Testing query: SELECT * FROM Staff WHERE Name LIKE "S%" ORDER BY Name
+    inmem.go:559: Querying: SELECT * FROM Staff WHERE Name LIKE "S%" ORDER BY Name
+    integration_test.go:1207: Testing query: SELECT Name FROM Staff WHERE FirstSeen >= @min
+    inmem.go:559: Querying: SELECT Name FROM Staff WHERE FirstSeen >= @min
+    inmem.go:561:         ▹ map[min:{1996-01-01 {false 6 0}}]
+    integration_test.go:1207: Testing query: SELECT RawBytes FROM Staff WHERE RawBytes IS NOT NULL
+    inmem.go:559: Querying: SELECT RawBytes FROM Staff WHERE RawBytes IS NOT NULL
+    integration_test.go:1207: Testing query: SELECT COUNT(*) FROM Staff WHERE `To` > '2000-01-01T00:00:00Z'
+    inmem.go:559: Querying: SELECT COUNT(*) FROM Staff WHERE `To` > "2000-01-01T00:00:00Z"
+    integration_test.go:1207: Testing query: SELECT DISTINCT Cool, Tenure > 8 FROM Staff ORDER BY Cool
+    inmem.go:559: Querying: SELECT DISTINCT Cool, Tenure > 8 FROM Staff ORDER BY Cool
+    integration_test.go:1207: Testing query: SELECT Name FROM Staff WHERE ID IN UNNEST(@ids)
+    inmem.go:559: Querying: SELECT Name FROM Staff WHERE ID IN UNNEST(@ids)
+    inmem.go:561:         ▹ map[ids:{[3 1] {true 1 0}}]
+    integration_test.go:1207: Testing query: SELECT LastName, SUM(PointsScored) FROM PlayerStats GROUP BY LastName
+    inmem.go:559: Querying: SELECT LastName, SUM(PointsScored) FROM PlayerStats GROUP BY LastName
+    integration_test.go:1207: Testing query: SELECT ID&0x01 AS odd, SUM(Tenure) FROM Staff GROUP BY odd
+    inmem.go:559: Querying: SELECT (ID)&(1) AS odd, SUM(Tenure) FROM Staff GROUP BY odd
+    integration_test.go:1207: Testing query: SELECT AVG(x) AS avg FROM UNNEST([0, 2, 4, 4, 5]) AS x
+    inmem.go:559: Querying: SELECT AVG(x) AS avg FROM UNNEST([0, 2, 4, 4, 5]) AS x
+    integration_test.go:1207: Testing query: SELECT MAX(Name) FROM Staff WHERE Name < @lim
+    inmem.go:559: Querying: SELECT MAX(Name) FROM Staff WHERE Name < @lim
+    inmem.go:561:         ▹ map[lim:{Teal'c {false 4 0}}]
+    integration_test.go:1207: Testing query: SELECT MAX(Name) FROM Staff WHERE Cool = @p1 LIMIT 1
+    inmem.go:559: Querying: SELECT MAX(Name) FROM Staff WHERE Cool = @p1 LIMIT 1
+    inmem.go:561:         ▹ map[p1:{true {false 0 0}}]
+    integration_test.go:1207: Testing query: SELECT MIN(Name) FROM Staff
+    inmem.go:559: Querying: SELECT MIN(Name) FROM Staff
+    integration_test.go:1207: Testing query: SELECT ARRAY_AGG(Cool) FROM Staff
+    inmem.go:559: Querying: SELECT ARRAY_AGG(Cool) FROM Staff
+    integration_test.go:1207: Testing query: SELECT s.Name FROM Staff AS s WHERE s.ID = 3 ORDER BY s.Tenure
+    inmem.go:559: Querying: SELECT s.Name FROM Staff AS s WHERE s.ID = 3 ORDER BY s.Tenure
+    integration_test.go:1207: Testing query: SELECT Name AS nom FROM Staff WHERE ID < 4 ORDER BY nom
+    inmem.go:559: Querying: SELECT Name AS nom FROM Staff WHERE ID < 4 ORDER BY nom
+    integration_test.go:1207: Testing query: SELECT * FROM JoinA INNER JOIN JoinB ON JoinA.w = JoinB.y ORDER BY w, x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinA INNER JOIN JoinB ON JoinA.w = JoinB.y ORDER BY w, x, y, z
+    integration_test.go:1207: Testing query: SELECT * FROM JoinE CROSS JOIN JoinF ORDER BY w, x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinE CROSS JOIN JoinF ORDER BY w, x, y, z
+    integration_test.go:1207: Testing query: SELECT * FROM JoinA FULL OUTER JOIN JoinB ON JoinA.w = JoinB.y ORDER BY w IS NULL, w, x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinA FULL JOIN JoinB ON JoinA.w = JoinB.y ORDER BY w IS NULL, w, x, y, z
+    integration_test.go:1207: Testing query: SELECT * FROM JoinC FULL OUTER JOIN JoinD USING (x) ORDER BY x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinC FULL JOIN JoinD USING (x) ORDER BY x, y, z
+    integration_test.go:1207: Testing query: SELECT * FROM JoinA LEFT OUTER JOIN JoinB AS B ON JoinA.w = B.y ORDER BY w, x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinA LEFT JOIN JoinB AS B ON JoinA.w = B.y ORDER BY w, x, y, z
+    integration_test.go:1207: Testing query: SELECT * FROM JoinC LEFT OUTER JOIN JoinD USING (x) ORDER BY x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinC LEFT JOIN JoinD USING (x) ORDER BY x, y, z
+    integration_test.go:1207: Testing query: SELECT * FROM JoinA RIGHT OUTER JOIN JoinB AS B ON JoinA.w = B.y ORDER BY w IS NULL, w, x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinA RIGHT JOIN JoinB AS B ON JoinA.w = B.y ORDER BY w IS NULL, w, x, y, z
+    integration_test.go:1207: Testing query: SELECT * FROM JoinC RIGHT OUTER JOIN JoinD USING (x) ORDER BY x, y, z
+    inmem.go:559: Querying: SELECT * FROM JoinC RIGHT JOIN JoinD USING (x) ORDER BY x, y, z
+    integration_test.go:1207: Testing query: SELECT id, first, last FROM Updateable ORDER BY id
+    inmem.go:559: Querying: SELECT id, first, last FROM Updateable ORDER BY id
+    integration_test.go:1207: Testing query: SELECT Cool, ARRAY_AGG(Name) FROM Staff WHERE Name > "zzz" GROUP BY Cool
+    inmem.go:559: Querying: SELECT Cool, ARRAY_AGG(Name) FROM Staff WHERE Name > "zzz" GROUP BY Cool
+    integration_test.go:1207: Testing query: SELECT COUNT(*) FROM Staff WHERE RawBytes IN UNNEST(@arg)
+    inmem.go:559: Querying: SELECT COUNT(*) FROM Staff WHERE RawBytes IN UNNEST(@arg)
+    inmem.go:561:         ▹ map[arg:{[[2] [1 0 1]] {true 5 0}}]
+    integration_test.go:1207: Testing query: SELECT i, str FROM SomeStrings WHERE str LIKE "%bar"
+    inmem.go:559: Querying: SELECT i, str FROM SomeStrings WHERE str LIKE "%bar"
+    integration_test.go:1207: Testing query: SELECT i, str FROM SomeStrings WHERE str NOT LIKE "%bar"
+    inmem.go:559: Querying: SELECT i, str FROM SomeStrings WHERE str NOT LIKE "%bar"
+    integration_test.go:1207: Testing query: SELECT Name AS nom FROM Staff ORDER BY ID LIMIT 2
+    inmem.go:559: Querying: SELECT Name AS nom FROM Staff ORDER BY ID LIMIT 2
+    integration_test.go:1207: Testing query: SELECT MIN(Name), MAX(Name) FROM Staff
+    inmem.go:559: Querying: SELECT MIN(Name), MAX(Name) FROM Staff
+    integration_test.go:1207: Testing query: SELECT Cool, MIN(Name), MAX(Name), COUNT(*) FROM Staff GROUP BY Cool ORDER BY Cool
+    inmem.go:559: Querying: SELECT Cool, MIN(Name), MAX(Name), COUNT(*) FROM Staff GROUP BY Cool ORDER BY Cool
+    integration_test.go:1207: Testing query: SELECT Tenure/2, Cool, Name FROM Staff WHERE Tenure/2 > 5
+    inmem.go:559: Querying: SELECT (Tenure)/(2), Cool, Name FROM Staff WHERE (Tenure)/(2) > 5
+    integration_test.go:1207: Testing query: SELECT Tenure/2, MAX(Cool) FROM Staff WHERE Tenure/2 > 5 GROUP BY Tenure/2
+    inmem.go:559: Querying: SELECT (Tenure)/(2), MAX(Cool) FROM Staff WHERE (Tenure)/(2) > 5 GROUP BY (Tenure)/(2)
+    integration_test.go:1207: Testing query: SELECT Tenure/2, Cool, MIN(Name) FROM Staff WHERE Tenure/2 >= 4 GROUP BY Tenure/2, Cool ORDER BY Cool DESC, Tenure/2
+    inmem.go:559: Querying: SELECT (Tenure)/(2), Cool, MIN(Name) FROM Staff WHERE (Tenure)/(2) >= 4 GROUP BY (Tenure)/(2), Cool ORDER BY Cool DESC, (Tenure)/(2)
+    integration_test.go:1207: Testing query: SELECT MIN(Cool), MAX(Cool), MIN(Tenure), MAX(Tenure), MIN(Height), MAX(Height), MIN(Name), MAX(Name), COUNT(*) FROM Staff
+    inmem.go:559: Querying: SELECT MIN(Cool), MAX(Cool), MIN(Tenure), MAX(Tenure), MIN(Height), MAX(Height), MIN(Name), MAX(Name), COUNT(*) FROM Staff
+    integration_test.go:1207: Testing query: SELECT Cool, MIN(Tenure), MAX(Tenure), MIN(Height), MAX(Height), MIN(Name), MAX(Name), COUNT(*) FROM Staff GROUP BY Cool ORDER BY Cool
+    inmem.go:559: Querying: SELECT Cool, MIN(Tenure), MAX(Tenure), MIN(Height), MAX(Height), MIN(Name), MAX(Name), COUNT(*) FROM Staff GROUP BY Cool ORDER BY Cool
+--- PASS: TestIntegration_ReadsAndQueries (3.82s)
+PASS
+ok  	cloud.google.com/go/spanner/spannertest	7.380s
+testing: warning: no tests to run
+PASS
+ok  	cloud.google.com/go/spanner/spansql	0.025s [no tests to run]
