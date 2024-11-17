@@ -279,7 +279,7 @@ type messageCarrier struct {
 	attributes map[string]string
 }
 
-const googclientPrefix string = "googclient_"
+const googclientPrefix string = "x-goog-pubsub-"
 
 // newMessageCarrier creates a new PubsubMessageCarrier.
 func newMessageCarrier(msg *Message) messageCarrier {
