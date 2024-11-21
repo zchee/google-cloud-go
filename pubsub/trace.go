@@ -286,6 +286,15 @@ func newMessageCarrier(msg *Message) messageCarrier {
 	return messageCarrier{attributes: msg.Attributes}
 }
 
+// NewMessageCarrierFromMessage creates a propagation.TextMapCarrier that can be used to extract the trace
+// context from a protobuf PubsubMessage.
+//
+// Example:
+// ctx = propagation.TraceContext{}.Extract(ctx, pubsub.NewMessageCarrierFromMessage(msg))
+func NewMessageCarrierFromMessage(msg *Message) propagation.TextMapCarrier {
+	return messageCarrier{attributes: msg.Attributes}
+}
+
 // NewMessageCarrierFromPB creates a propagation.TextMapCarrier that can be used to extract the trace
 // context from a protobuf PubsubMessage.
 //
